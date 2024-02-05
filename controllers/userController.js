@@ -1,4 +1,4 @@
-const { User, Types } =  require ('../models');
+const { User, Thought } =  require ('../models');
 
 // Aggregate function to get the number of users overall
 const userCount = async () => {
@@ -127,5 +127,4 @@ async removeFriend(res, req){
           res.status(500).json(err);
         }
     }
-}
 };
