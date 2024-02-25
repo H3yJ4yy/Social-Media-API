@@ -16,18 +16,16 @@ router
     .post(createThought);
 
 router
-    .route("/:userId")
-    .delete(deleteThought);
-router
     .route("/:thoughtId")
     .get(getSingleThought)
-    .put(updateThought);
+    .put(updateThought)
+    .delete(deleteThought)
 
 router
     .route("/:thoughtId/reactions")
-    .post(addReaction);
+    .post(addReaction)
 router
-    .route("?:thoughtId/reaction/:reactionId")
+    .route("/:thoughtId/reactions/:reactionId")
     .delete(removeReaction);
 
 
