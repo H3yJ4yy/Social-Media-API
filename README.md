@@ -1,5 +1,5 @@
 
-  # Social Media API 
+  # Social Network API 
 
   ## Description
   This is an API designed for a social notwork platform, allowing the user to befriend one another, share their thoughts and  interact with one another. Built using NoSQL Routes. 
@@ -29,7 +29,8 @@
   none 
  
   ## Demo
-  [Demo](https://github.com/H3yJ4yy/Social-Media-API/issues/1#issue-2152923194)
+  [!Demo](https://github.com/H3yJ4yy/Social-Media-API/assets/143395836/22987712-cf87-4aca-afaf-a670a0a832b4
+)
 
   ## Credits
   This was done with the help of my tutor
